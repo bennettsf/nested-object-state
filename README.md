@@ -1,3 +1,21 @@
+This assignment is practice for managing a nested object's state in react using the useState hook.
+
+Within the updateAddress function, we're taking the previous state of the object and updating it based on the state of the street, city, and country values that get submitted in a form.
+
+![](https://i.imgur.com/58c9DX4.gif)
+
+The object being used: ```{
+    name: "Bennett",
+    email: "bennett.fife@gmail.com",
+    address: {
+      street: "",
+      city: "",
+      country: "",
+    }```
+
+Street, city, and country are part of the nested `address` object. We can achieve proper state change using spread syntax to pinpoint those elements. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
